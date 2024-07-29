@@ -1,0 +1,197 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header-section {
+    background: #1c1d24; /* Previous color */
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.logo a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #ffb900;
+    transition: color 0.3s ease;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main-menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.main-menu ul li a:hover {
+    color: #ffb900;
+}
+
+/* Home section styles */
+.home-section {
+    background: #1c1d24; /* Previous color */
+    color: #ffffff;
+    padding: 150px 0;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInDown 2s ease;
+}
+
+.home-content p {
+    font-size: 24px;
+    animation: fadeInUp 2s ease;
+}
+
+
+/* About section styles */
+.about-section {
+    background: linear-gradient(135deg, #f50057, #651fff); /* Gradient background */
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.about-summary,
+.experience,
+.skills,
+.education {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.about-summary h2,
+.experience h2,
+.skills h2,
+.education h2 {
+    color: #1c1d24; /* Dark color */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-summary p,
+.experience p,
+.skills p,
+.education p {
+    color: #1c1d24; /* Dark color */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-summary h3 {
+    color: #1c1d24; /* Dark color */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-summary ul {
+    color: #1c1d24; /* Dark color */
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+/* Contact section styles */
+/* Contact section styles */
+#contact {
+    background: linear-gradient(135deg, #625f5f, #413d4179); /* Gradient background */
+    color: #ffffff; /* White text */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info li i {
+    margin-right: 10px;
+    color: #ffffff; /* White color for icon */
+}
+
+
+
+/* Keyframe animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
